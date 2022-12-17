@@ -9,7 +9,7 @@ Author: Ayushi Rawat
 
 from countryinfo import CountryInfo
 
-name = 'India'
+name = input("Enter Country Name: ")
 country = CountryInfo(name)
 
 data1 = country.alt_spellings()
@@ -40,5 +40,5 @@ data9 = country.wiki()
 print(data9)
 
 data10 = country.info()
-for x,y in data10.items():
+for x, y in data10.items():
     print(f'{x} --> {y}')
